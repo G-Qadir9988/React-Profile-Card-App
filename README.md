@@ -64,7 +64,7 @@ Live Preview:
 📺 YouTube: https://youtube.com/@coreittech?si=DcRRIjYLBg4ZBY37  
 📷 Instagram: https://www.instagram.com/coreit.tech?igsh=MWt3a3l0YnJyZzh1Zw==  
 📘 Facebook: https://www.facebook.com/share/1AmgLDUnc9/  
-🌍 Portfolio Website: https://coreit-portfolio.netlify.app
+🌍 Portfolio Website: [https://ghulam qadir-portfolio.netlify.app](https://ghulam-qadir.netlify.app/)
 
 ---
 
