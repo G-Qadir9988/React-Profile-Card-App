@@ -1,0 +1,250 @@
+body {
+  background-color: #f5f7fa;
+  background-image: url('https://www.transparenttextures.com/patterns/white-wall-3.png');
+  background-repeat: repeat;
+  background-size: auto;
+}
+
+
+
+/* Sidebar Drawer */
+.sidebar-drawer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 250px;
+  background-color: #1e1e1e;
+  color: #fff;
+  padding: 20px;
+  transform: translateX(-100%);
+  transition: transform 0.3s ease;
+  z-index: 1050;
+}
+
+/* When sidebar is open */
+.sidebar-drawer.open {
+  transform: translateX(0);
+}
+
+/* Overlay to close sidebar when clicked outside */
+.sidebar-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  background: rgba(0,0,0,0.4);
+  z-index: 1049;
+}
+
+/* GLOBAL DARK MODE STYLE */
+.dark-mode {
+  background-color: #121212 !important;
+  color: #bdaeae;
+}
+
+/* Navbar dark mode override if needed */
+.navbar-dark.bg-dark {
+  background-color: #1f1f1f !important;
+}
+
+/* Cards dark mode */
+.dark-mode .card {
+  background-color: #1e1e1e;
+  color: #d0bfbf;
+}
+
+/* Buttons remain bootstrap styled */
+
+input, button {
+  transition: all 0.3s ease;
+}
+
+input:focus, button:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.15rem rgba(0,123,255,0.25);
+}
+
+.auth-form {
+  background-color: #d7c677; /* White box */
+  border-radius: 16px;
+  padding: 30px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+.auth-form h3 {
+  color: #0c0101;
+  font-weight: 600;
+}
+
+.auth-form input {
+  border-radius: 8px;
+}
+
+.auth-form .btn {
+  border-radius: 8px;
+}
+
+
+
+.heading-shadow {
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+
+.navbar-brand {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing: 1px;
+}
+
+.btn-outline-light:hover {
+  background-color: #ffc107;
+  color: black;
+  border-color: #ffc107;
+}
+
+.btn-danger {
+  border-radius: 8px;
+  font-weight: 500;
+}
+
+.profile-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.profile-card .btn {
+  transition: all 0.3s ease;
+}
+
+.profile-card .btn:hover {
+  transform: scale(1.05);
+}
+
+/* ✅ Custom styling for dark mode profile cards */
+.dark-mode .profile-card {
+  background-color: #1e1e1e !important;
+  color: #f0f0f0;
+  box-shadow: 0 6px 16px rgba(255, 255, 255, 0.05);
+}
+
+.dark-mode .profile-card .card-title {
+  color: #ffffff;
+}
+
+.dark-mode .profile-card .text-muted {
+  color: #bbbbbb !important;
+}
+
+.dark-mode .profile-card .btn-outline-success {
+  border-color: #28a745;
+  color: #28a745;
+}
+
+.dark-mode .profile-card .btn-outline-danger {
+  border-color: #dc3545;
+  color: #dc3545;
+}
+
+.dark-mode .profile-card .btn-outline-success:hover,
+.dark-mode .profile-card .btn-outline-danger:hover {
+  background-color: transparent;
+  opacity: 0.85;
+}
+
+.dark-mode .profile-card.followed {
+  box-shadow: 0 0 20px rgba(0, 255, 150, 0.3);
+  border: 1px solid rgba(0, 255, 150, 0.2);
+}
+
+.profile-card img {
+  transition: transform 0.3s ease;
+}
+
+.profile-card:hover img {
+  transform: scale(1.1);
+}
+
+@keyframes pulse {
+  0% { box-shadow: 0 0 0 0 rgba(40, 167, 69, 0.4); }
+  70% { box-shadow: 0 0 0 10px rgba(40, 167, 69, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(40, 167, 69, 0); }
+}
+
+.profile-card .btn-outline-success {
+  animation: pulse 2s infinite;
+}
+
+
+
+/* ✅ Pulse animation */
+@keyframes pulse {
+  0% { box-shadow: 0 0 0 0 rgba(40, 167, 69, 0.4); }
+  70% { box-shadow: 0 0 0 10px rgba(40, 167, 69, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(40, 167, 69, 0); }
+}
+
+.pulse-btn:not(.btn-outline-danger) {
+  animation: pulse 2s infinite;
+}
+
+/* ✅ Dark mode improvements */
+.dark-mode .profile-card {
+  background-color: #1e1e1e !important;
+  color: #f0f0f0;
+  box-shadow: 0 6px 16px rgba(255, 255, 255, 0.05);
+}
+
+.dark-mode .profile-card.followed {
+  box-shadow: 0 0 20px rgba(0, 255, 150, 0.3);
+  border: 1px solid rgba(0, 255, 150, 0.2);
+}
+
+/* ✅ Zoom effect on profile picture */
+.profile-img {
+  transition: transform 0.3s ease;
+}
+.profile-card:hover .profile-img {
+  transform: scale(1.1);
+}
+
+
+body.dark-mode .dark-mode-heading {
+  color: #ffffff;
+}
+
+.dark-mode-heading {
+  font-weight: 700;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+  padding-bottom: 8px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.category-heading {
+  color: #222;
+  font-weight: 700;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+  padding-bottom: 8px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+body.dark-mode .category-heading {
+  color: #ffffff;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+body.dark-mode .card.profile-card {
+  background-color: #1e1e1e !important;
+  color: white;
+}
+
+body.dark-mode .card.profile-card p {
+  background-color: #333 !important;
+  color: #eee !important;
+}
+
