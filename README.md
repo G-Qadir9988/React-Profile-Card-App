@@ -1,70 +1,76 @@
-# Getting Started with Create React App
+# 💼 Profile Card App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A sleek, category-wise profile card viewer built using **React.js**. This project includes role-based background themes, light/dark modes, and follow/unfollow interactivity with dynamic badge updates.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Features
 
-### `npm start`
+- 🧑‍💼 Category-wise profile listing (Cricketer, Actor, Politician, Military)
+- 🌗 Light and Dark mode toggle
+- 💚 Follow/Unfollow toggle with animated badge & pulse
+- 🎨 Role-based background and tag colors
+- 🧾 Sidebar drawer with followed summary and avatars
+- 🔒 Login screen with session persistence (localStorage)
+- 📱 Fully responsive and mobile-friendly design
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 📸 Preview Screenshot
+![Preview](./public/images/preview-screenshot.jpg)
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🛠️ Built With
 
-### `npm run build`
+- React.js
+- Bootstrap 5
+- Custom CSS
+- JSX Components
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🔧 Setup Instructions
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+# Clone the repository
+https://github.com/GhulamQadirOfficial/profile-card-app.git
 
-### `npm run eject`
+# Navigate into the project folder
+cd profile-card-app
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+# Install dependencies
+npm install
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Start the development server
+npm start
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+# Build for production
+npm run build
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Live Preview:
+👉 [https://your-netlify-url.netlify.app](https://your-netlify-url.netlify.app)
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🌐 Connect With Us
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+👤 **Author**: Ghulam Qadir  
+📧 Email: [gqitspecialist@gmail.com](mailto:gqitspecialist@gmail.com)  
+🔗 LinkedIn: [https://www.linkedin.com/in/ghulam-qadir-07a982365](https://www.linkedin.com/in/ghulam-qadir-07a982365)
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### 📣 Follow Our Pages
 
-### Analyzing the Bundle Size
+📺 YouTube: https://youtube.com/@coreittech?si=DcRRIjYLBg4ZBY37  
+📷 Instagram: https://www.instagram.com/coreit.tech?igsh=MWt3a3l0YnJyZzh1Zw==  
+📘 Facebook: https://www.facebook.com/share/1AmgLDUnc9/  
+🌍 Portfolio Website: https://coreit-portfolio.netlify.app
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+📩 **DM us for custom designs, collaborations, and internships!**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+🙌 Thanks for visiting!
