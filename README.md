@@ -16,10 +16,7 @@ A sleek, category-wise profile card viewer built using **React.js**. This projec
 
 ---
 
-## 📸 Preview Screenshot
-![Preview](./public/images/preview-screenshot.jpg)
 
----
 
 ## 🛠️ Built With
 
@@ -50,7 +47,7 @@ npm run build
 ```
 
 Live Preview:
-👉 [https://your-netlify-url.netlify.app](https://your-netlify-url.netlify.app)
+👉 [https://your-netlify-url.netlify.app](https://react-ghulam-qadir-dyn-profile-card.netlify.app/)
 
 ---
 
